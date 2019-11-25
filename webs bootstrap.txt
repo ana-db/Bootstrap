@@ -1,0 +1,44 @@
+25/11:
+BOOTSTRAP4: 
+
+framework de front end para maquetar creado por twitter (otro ejemplo: https://materializecss.com/)
+
+https://getbootstrap.com/
+1)Starter template --> https://getbootstrap.com/docs/4.3/getting-started/introduction/
+2) Important globals --> css preparado para funcuonar en cualquier navegador
+3) HTML5 doctype
+4) Responsive meta tag
+	shrink-to-fit=no --> para que no se encoja
+5) Box-sizing
+	from content-box to border-box: para que no cuente el ancho global y vaya cogiendo bordes
+6) Reboot --> es una especie de  reset
+
+https://getbootstrap.com/docs/4.3/layout/overview/
+1) Containers --> 
+	<div class="container"> --> para centrar la página
+	<div class="container-fluid"> --> ocupa todo el ancho de la pantalla
+2) Responsive breakpoints
+	con media querys para escalar a diferentes tamaños
+3)Z-index
+	cuanto más z-index, más por encima estará
+
+https://getbootstrap.com/docs/4.3/components/alerts/
+
+https://getbootstrap.com/docs/4.3/components/badge/
+
+https://getbootstrap.com/docs/4.3/components/breadcrumb/ 
+	para marcar el camino dentro de la web y poder volver
+	https://getbootstrap.com/docs/4.3/components/buttons/
+	https://getbootstrap.com/docs/4.3/components/button-group/
+	https://getbootstrap.com/docs/4.3/components/card/
+	https://getbootstrap.com/docs/4.3/components/collapse/
+
+
+https://getbootstrap.com/docs/4.3/examples/sticky-footer/
+
+https://getbootstrap.com/docs/4.3/utilities/spacing/
+	{property}{sides}-{size} --> sides: up, bottom, right, left
+
+footer con: 
+https://getbootstrap.com/docs/4.3/utilities/flex/
+https://getbootstrap.com/docs/4.3/utilities/float/
