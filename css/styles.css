@@ -24,10 +24,24 @@ main:before {
 .fa-github{ /*fontawesome github*/
 	color: white;
 	font-size: 1.5em;
-	text-decoration: none; /* quita la línea de subrayado del link */
+    text-decoration: none; /* quita la línea de subrayado del link */
 }
 
+footer a {
+    color: white;
+}
 
+footer a:hover {
+    color: yellow;
+}
+
+footer li {
+    text-align: center;
+}
+
+ul, ol {
+    list-style: none;
+}
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
