@@ -20,29 +20,57 @@
   <body>
 
         <nav class="navbar navbar-dark bg-primary navbar-expand-lg">
-            <a class="navbar-brand" href="index.html">Inicio</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-                
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link active" href="gridsystem.html">Grid System <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="componentes.html">Componentes <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="utilidades.html">Utilidades<span class="sr-only">(current)</span></a>
-                </li>
-                </ul>
-            </div>
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Inicio</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                    
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="gridsystem.html">Grid System <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="componentes.html">Componentes <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="utilidades.html">Utilidades<span class="sr-only">(current)</span></a>
+                    </li>
+                    </ul>
+                </div> <!-- cierre collapse navbar-collapse -->
+            </div> <!-- cierre container -->
         </nav>
 
 
-        <h1>grid system</h1>
+       
 
+
+        <main class="container"> 
+            <div class="row mb-5"> <!-- mb-3: margin bottom de 5 -->
+                <div class="col">
+                    <h1>grid system</h1>
+                    <p>bootstrap funciona con un sistema de grillas a 12 columnas</p>
+                    <p>usa internamente <b>flexbox</b> y es necesario que esté dentro de un <code>.container</code></p>
+                </div>
+            </div>
+
+            <p>Disponemos de 12 columnas</p>
+            <div class="row mb-5"> <!-- div.row>div.col*12 -->
+                <div class="col">1</div>
+                <div class="col">1</div>
+                <div class="col">1</div>
+                <div class="col">1</div>
+                <div class="col">1</div>
+                <div class="col">1</div>
+                <div class="col">1</div>
+                <div class="col">1</div>
+                <div class="col">1</div>
+                <div class="col">1</div>
+                <div class="col">1</div>
+                <div class="col">1</div>
+            </div>
+        
             <p>Dividimos la fila en 3 columnas para todos los breakpoints</p>
             <div class="row p-2">
                 <div class="col"> <!-- col: siempre serán 3 cols -->
@@ -60,18 +88,112 @@
             <p>Inferior a SM, la columna ocupa 12 columnas</p>
             <div class="row">
                 <div class="col-sm"> <!-- col-sm: small devices, la columna ocupará toda la página para dispositivos peuqeños -->
-                    One of three columns
+                    <span class="d-block d-sm-none">12</span> <!-- Display para ocultar el 3 en "Hidden only on xs" -->
+                    <span class="d-none d-sm-block">4</span>
                 </div>
                 <div class="col-sm">
-                    One of three columns
+                    <span class="d-block d-sm-none">12</span>
+                    <span class="d-none d-sm-block">4</span>
                 </div>
-                <div class="col-sm">
-                    One of three columns
+                <div class="col-sm"> <!-- según el breakpoint se pueden especeficar el núm de cols -->
+                    <span class="d-block d-sm-none">12</span>
+                    <span class="d-none d-sm-block">4</span>
                 </div>
             </div>
+        
+            <p>Disponemos de 5 breakpoints y también se puede indicar las columnas que ocupan (siempre sumando 12)</p>
+            <div class="row mb-5"> <!-- div.row>div.col*3 -->
+                <div class="col-xs-12 col-sm-4 col-lg-6">1º columna</div> <!-- indicamos cuántas columnas queremos utilizar en función del tamaño del dispositivo -->
+                <div class="col-xs-12 col-sm-4 col-lg-6">2º columna</div>
+                <div class="col-xs-12 col-sm-4 col-lg-6">3º columna</div>
+            </div>
 
+            <h2>Alineación vertical</h2>
+            <!-- hacer algún ejemplo, puede servir para centrar el formulario de login -->
+            <a href="https://getbootstrap.com/docs/4.3/layout/grid/#vertical-alignment" target=_blank>Alineación vertical</a>
 
+            
+            <div class="row align-items-start">
+                <div class="col">
+                    Columna 1 inicial
+                </div>
+                <div class="col">
+                    Columna 2 inicial
+                </div>
+                <div class="col">
+                    Columna 3 inicial
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col">
+                    Columna 1 central
+                </div>
+                <div class="col">
+                    Columna 2 central
+                </div>
+                <div class="col">
+                    Columna 3 central
+                </div>
+            </div>
+            <div class="row align-items-end">
+                <div class="col">
+                    Columna 1 final
+                </div>
+                <div class="col">
+                    Columna 2 final
+                </div>
+                <div class="col">
+                    Columna 3 final
+                </div>
+            </div>
+            
+            <br>
+            
+            <p>Ponemos al <code>div.row</code> un estilo en línea <code>style="min-height: 11rem"</code> para dar una altura mínima al contenedor</p>
+            <div class="row bg-warning" style="min-height: 10rem">
+                <div class="col align-self-start">
+                    izquierda
+                </div>
+                <div class="col align-self-center">
+                    centro
+                </div>
+                <div class="col align-self-end">
+                    derecha
+                </div>
+            </div><br>
+           
 
+            <h2>Ordenación</h2>
+            <p>Tenemos 6 divs en 2 columnas para PCs pero en móvil queremos que la 5a sea la 1a</p>
+            <a href="https://getbootstrap.com/docs/4.3/layout/grid/#order-classes" target=_blank>Alineación vertical</a>
+
+            <!-- poner a la 5a un color distinto de background -->
+            <!-- <h2>Alineación vertical</h2>
+            hacer algún ejemplo -->
+
+            <div class="row">
+                <div class="col-4 bg-primary order-lg-5 bg-success text-white">5</div>
+                <div class="col-4 order-lg-1">1</div>
+                <div class="col-4 order-lg-2">2</div>
+                <div class="col-4 order-lg-3">3</div>
+                <div class="col-4 order-lg-4">4</div>
+                <div class="col-4 order-lg-6">6</div>
+            </div><br>
+            
+             
+            <h2>Offset</h2>
+            <p>Queremos 3 columnas que ocupen 3 espacios, pero de la 2a a la 3a debe quedar un hueco vacío</p>
+            <a href="https://getbootstrap.com/docs/4.3/layout/grid/#order-classes" target=_blank>Offset</a>
+
+            <div class="row">
+                <div class="col">1</div>
+                <div class="col">2</div>
+                <div class="col offset-md-3">3</div>
+            </div>
+        
+        </main>
+
+            
         <a href="index.html">Volver</a>
 
         <footer class="bg-primary text-white">

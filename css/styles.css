@@ -15,7 +15,8 @@ main:before {
     content: "Mobile First < 576";
 }
 
-.col, .col-sm { 
+/* .col, .col-sm */
+.row div[class^="col"] { /* selector de atributos para dar estilos a todos los div (dentro de row) que tengan una clase que comience por "col" */
     border: 1px solid #333;
     background-color: #ddd;
     padding: 20px;
