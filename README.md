@@ -5,6 +5,6 @@ Tenemos varias paginas .html donde probamos diferentes funcionalidades de este f
 - Componentes
 - Grid System
 - Utilidades
-- Themes o plantillas
-
+- Themes o plantilla
+    
 ![Alt text](https://github.com/ana-db/Bootstrap/blob/master/resources/screenshot.png)
