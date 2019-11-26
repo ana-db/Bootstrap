@@ -7,4 +7,4 @@ Tenemos varias paginas .html donde probamos diferentes funcionalidades de este f
 - Utilidades
 - Themes o plantillas
 
-![Alt text]
+![Alt text](https://github.com/ana-db/Bootstrap/blob/master/resources/screenshot.png)
