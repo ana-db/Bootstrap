@@ -56,3 +56,10 @@ readme: https://www.markdownguide.org/basic-syntax/
 THEMES o PLANTILLAS:
 https://getbootstrap.com/docs/4.3/examples/   --> plantillas más básicas para hacer algo rápido
 https://startbootstrap.com/themes/sb-admin-2/ --> plantillas más elaboradas
+https://startbootstrap.com/snippets/video-header/ --> video nieve
+
+
+** hacer ENLACE EJEMPLOS con 1 ejemplo de https://getbootstrap.com/docs/4.3/examples/
+
+
+(https://www.markdownguide.org/basic-syntax/)
