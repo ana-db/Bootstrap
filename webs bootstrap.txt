@@ -48,4 +48,11 @@ https://getbootstrap.com/docs/4.3/utilities/float/
 26/11:
 GRID
 	https://getbootstrap.com/docs/4.3/layout/grid/
-	grid options, equal grid, Setting one column width
+	grid options, equal grid, Setting one column width, Equal-width multi-row (para hacer que salte)
+	Alignment, Reordering
+
+readme: https://www.markdownguide.org/basic-syntax/
+
+THEMES o PLANTILLAS:
+https://getbootstrap.com/docs/4.3/examples/   --> plantillas más básicas para hacer algo rápido
+https://startbootstrap.com/themes/sb-admin-2/ --> plantillas más elaboradas
