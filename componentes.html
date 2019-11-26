@@ -18,6 +18,7 @@
 
 
   <body>
+      
     
     <nav class="navbar navbar-dark bg-primary navbar-expand-lg">
         <div class="container">
@@ -42,96 +43,99 @@
         </div> <!-- cierre container -->
     </nav>
 
-    <h1>Componentes</h1>
+    <main class="container">
 
-        <h2>Alerts</h2>
-            <div class="alert alert-primary" role="alert"> <!-- role: indica la función de este div, una alerta. Se usa por accesibilidad, si se quita, no afecta a la visualziación -->
-                Esto es una alerta de color azul!
-            </div>
+        <h1>Componentes</h1>
 
-            <div class="alert alert-danger" role="alert">
-                    Esto es una alerta de color rojo!
-            </div>
-
-            <div class="alert alert-success" role="alert">
-                <h4 class="alert-heading">Well done!</h4>
-                <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
-                <hr>
-                <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
-            </div>
-
-            <div class="alert alert-warning alert-dismissible fade show" role="alert"> <!-- dismissible, desaparece al pinchar -->
-                <strong>Holy guacamole!</strong> You should check in on some of those fields below.
-                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-
-
-        <h2>Badges</h2> 
-            <p>Badges scale to match the size of the immediate parent element by using relative font sizing and em units:</p>
-            <h1>Example heading <span class="badge badge-secondary">New</span></h1>
-            <h2>Example heading <span class="badge badge-secondary">New</span></h2>
-            <h3>Example heading <span class="badge badge-secondary">New</span></h3>
-            <h4>Example heading <span class="badge badge-secondary">New</span></h4>
-            <h5>Example heading <span class="badge badge-secondary">New</span></h5>
-            <h6>Example heading <span class="badge badge-secondary">New</span></h6><br>
-
-            <p>Badges can be used as part of links or buttons to provide a counter: </p>
-            <button type="button" class="btn btn-primary">
-                Notifications <span class="badge badge-light">4</span>
-            </button><br>
-
-
-        <h2>Contextual variations, Pill badges and Links</h2>     
-            <span class="badge badge-primary">Primary</span>
-            <span class="badge badge-pill badge-success">Success</span>
-            <a href="#" class="badge badge-danger">Danger</a><br>
-
-         
-        <h2>Breadcrumb</h2>   
-            <p>Indicate the current page’s location within a navigational hierarchy that automatically adds separators via CSS.</p>
-            <nav aria-label="breadcrumb">
-                <ol class="breadcrumb">
-                <li class="breadcrumb-item active" aria-current="page">Home</li>
-                </ol>
-            </nav>
-                
-            <nav aria-label="breadcrumb">
-                <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="#">Home</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Library</li>
-                </ol>
-            </nav>
-            
-            <nav aria-label="breadcrumb">
-                <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="#">Home</a></li>
-                <li class="breadcrumb-item"><a href="#">Library</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Data</li>
-                </ol>
-            </nav><br>
-
-        <h2>Buttoms</h2>
-            <button type="button" class="btn btn-primary btn-lg">Large button</button>
-            <button type="button" class="btn btn-secondary btn-lg btn-block">Block level button</button>
-        
-
-        <h2>Dropdowns</h2>
-            <div class="dropdown">
-                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Dropdown button
-                </button>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <a class="dropdown-item" href="#">Something else here</a>
+            <h2>Alerts</h2>
+                <div class="alert alert-primary" role="alert"> <!-- role: indica la función de este div, una alerta. Se usa por accesibilidad, si se quita, no afecta a la visualziación -->
+                    Esto es una alerta de color azul!
                 </div>
-            </div>
+
+                <div class="alert alert-danger" role="alert">
+                        Esto es una alerta de color rojo!
+                </div>
+
+                <div class="alert alert-success" role="alert">
+                    <h4 class="alert-heading">Well done!</h4>
+                    <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
+                    <hr>
+                    <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+                </div>
+
+                <div class="alert alert-warning alert-dismissible fade show" role="alert"> <!-- dismissible, desaparece al pinchar -->
+                    <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
 
 
-        <a href="index.html">Volver</a>
+            <h2>Badges</h2> 
+                <p>Badges scale to match the size of the immediate parent element by using relative font sizing and em units:</p>
+                <h1>Example heading <span class="badge badge-secondary">New</span></h1>
+                <h2>Example heading <span class="badge badge-secondary">New</span></h2>
+                <h3>Example heading <span class="badge badge-secondary">New</span></h3>
+                <h4>Example heading <span class="badge badge-secondary">New</span></h4>
+                <h5>Example heading <span class="badge badge-secondary">New</span></h5>
+                <h6>Example heading <span class="badge badge-secondary">New</span></h6><br>
 
+                <p>Badges can be used as part of links or buttons to provide a counter: </p>
+                <button type="button" class="btn btn-primary">
+                    Notifications <span class="badge badge-light">4</span>
+                </button><br>
+
+
+            <h2>Contextual variations, Pill badges and Links</h2>     
+                <span class="badge badge-primary">Primary</span>
+                <span class="badge badge-pill badge-success">Success</span>
+                <a href="#" class="badge badge-danger">Danger</a><br>
+
+            
+            <h2>Breadcrumb</h2>   
+                <p>Indicate the current page’s location within a navigational hierarchy that automatically adds separators via CSS.</p>
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                    <li class="breadcrumb-item active" aria-current="page">Home</li>
+                    </ol>
+                </nav>
+                    
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Library</li>
+                    </ol>
+                </nav>
+                
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item"><a href="#">Library</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Data</li>
+                    </ol>
+                </nav><br>
+
+            <h2>Buttoms</h2>
+                <button type="button" class="btn btn-primary btn-lg">Large button</button>
+                <button type="button" class="btn btn-secondary btn-lg btn-block">Block level button</button>
+            
+
+            <h2>Dropdowns</h2>
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown button
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </div>
+
+
+            <a href="index.html">Volver</a>
+
+    </main>
 
         <footer class="bg-primary text-white">
             <div class="container p-1 p-sm-3 clearfix"> <!-- p-4: padding, p-sm-3 padding para tamaño de dispositivo pequeño -->
