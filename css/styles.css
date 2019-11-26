@@ -22,6 +22,11 @@ main:before {
     padding: 20px;
 }
 
+.card-header {
+    color: white;
+    background-color: #007bff;
+}
+
 .fa-github{ /*fontawesome github*/
 	color: white;
 	font-size: 1.5em;
